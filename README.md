@@ -1,15 +1,23 @@
 # 🛒 Blinkit Sales Analytics Dashboard
+A comprehensive Power BI and MySQL-driven analytics project that visualizes Blinkit's retail sales data to uncover trends, improve decision-making, and drive operational insights.
+
 
 ## 📊 Project Overview
 
-The **Blinkit Sales Dashboard** is a fully interactive Power BI solution designed to provide actionable insights into retail sales performance, outlet trends, and product-level analytics. Built for decision-makers and analysts, the dashboard helps monitor KPIs, compare outlet types, and explore patterns across different item categories.
+The **Blinkit Sales Dashboard** is a fully interactive Power BI solution designed to deliver **actionable insights** into retail performance across products, outlets, and customer segments. Tailored for business analysts and decision-makers, the dashboard enables users to:
+
+- Monitor key performance indicators (KPIs) such as total sales, average sales, and customer ratings  
+- Compare performance across **outlet types, sizes, and locations**  
+- Analyze sales trends by **item category, fat content, and visibility**  
+- Identify high-performing segments and underperforming patterns for strategic optimization
 
 ---
 
 ## 🧰 Tools Used
 
-- 📊 **Power BI Desktop** – For building dynamic and visual dashboards
-- 📑 **Microsoft Excel** – For initial data cleaning and preprocessing
+- 📊 **Power BI Desktop** – Used for building interactive dashboards with slicers, KPIs, drill-downs, and custom bookmarks
+- 📑 **Microsoft Excel** – Performed initial data cleaning, preprocessing, and exploratory analysis before database import
+- 📌 **MYSQL** - Structured storage and advanced querying of the dataset to extract business-critical insights\
 - 📂 **Blinkit Dataset** – Contains sales, outlet, and product-level attributes
 
 ---
@@ -43,6 +51,15 @@ A **"Reset All Filters"** button has been added using Power BI bookmarks and act
 - When clicked, it resets all slicers and visuals to their default state
 
 🟢 Enhances user experience by reducing filter overload during analysis.
+
+
+---
+### 📌 Advanced SQL Insights
+- Year-over-year sales trend using window functions
+- Top item types by outlet format
+- Contribution analysis by fat content and outlet size
+- Underperforming product categories with low rating and sales
+- Tier-wise outlet profitability breakdown
 
 ---
 
